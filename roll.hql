@@ -4,7 +4,7 @@ use rollup;
 
 create table IF NOT EXISTS roll3(y string, m string, d string, value string) row format delimited fields terminated by '\t'  lines terminated by '\n' TBLPROPERTIES ("skip.header.line.count"="1");
 
-load data local inpath '/home/edureka/TestTrail/InputData.txt' overwrite into table roll3;
+load data local inpath '/home/edureka/InputData.txt' overwrite into table roll3;
 
 set hive.cli.print.header=true;
 
