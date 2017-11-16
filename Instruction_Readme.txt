@@ -1,6 +1,6 @@
 Instruction to Run the hive script
 -----------------------------------------
-Precodition : Hive should be installed. 
+Precondition : Hive should be installed. 
 
 Step 01: Download the code from github project path.
 		https://github.com/nandinirsahoo/RollUp
