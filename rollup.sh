@@ -1,6 +1,6 @@
 #!/bin/sh
-FILE="/home/edureka/roll.properties"
-HOME_PATH='/home/edureka'
+FILE="/home/TestCode/roll.properties"
+HOME_PATH='/home/TestCode'
 INPUT_FILE="${HOME_PATH}/InputData.txt"
 
 #db_name=$(grep -i 'databaseName' $FILE  | cut -f2 -d'=')
