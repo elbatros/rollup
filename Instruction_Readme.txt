@@ -1,26 +1,31 @@
 Instruction to Run the hive script
 -----------------------------------------
+Step 01: Download the code from github project path.
+		https://github.com/nandinirsahoo/RollUp
+		unzip : RollUp-master.zip under your Local directory.
+		Zipped Folder contains:
+		rollup.sh, roll.hql and InputData.txt, roll.properties.
 
-Step1: Download rollup.sh, roll.hql and InputData.txt, roll.properties from GitHub link to a local file directory
+Step 02: Open rollup.sh in notepad and at line no 2 and 3 replace
+		/home/edureka/ with the Unix environment local file directory path where the code will be executed.
+			
+Step 03: Open roll.hql in notepad and at line no. 4 replace 
+		/home/edureka/ with the Unix environment local file directory path.
 
-step2: Open rollup.sh in notepad and at line no 2 and 3 replace
-/home/edureka/ with the local file directory path where the files are downloaded.
+Step 4: Transfer the files from windows environment to your UNIX environment Local file directory path.
 
-step3: open roll.hql in notepad and at line no. 4 replace 
-/home/edureka/ with the local file directory path where the files are downloaded
+Step 05: Open unix command prompt and go to the file directory path where rollup.sh file is located
+		>cd file path
 
-step4: open unix command prompt and go to the file directory path where rollup.sh file is located
->cd file path
+Step 06: Provide executable permission to rollup.sh file
+		>chmod 777 rollup.sh
 
-step5: Give executable permission to rollup.s file
->chmod 777 rollup.sh
+Step 07: Execute below command
+		>./rollup.sh 
 
-step6: Execute below command
->./rollup.sh 
+Step 08: After complete execution 
 
-Step7: After complete execution 
 Result folder will be created inside the  local file directory path 
-
 Inside Result folder Result_Output.txt will be created
 
  
